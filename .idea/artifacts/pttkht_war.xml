@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="pttkht:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>pttkht</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="pttkht-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="pttkht:war exploded" />
+    </root>
+  </artifact>
+</component>
